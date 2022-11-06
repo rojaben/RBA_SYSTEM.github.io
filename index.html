@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sistemas Operativos 2</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid border-bottom d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-4 text-center py-2">
+                <div class="d-inline-flex align-items-center">
+                   
+                    <div class="text-start">
+                        <h6 class="text-uppercase mb-1">Rocío Segovia</h6>
+                        <span>--------------</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center border-start border-end py-2">
+                <div class="d-inline-flex align-items-center">
+                    
+                    <div class="text-start">
+                        <h6 class="text-uppercase mb-1">Alejandro Rossi</h6>
+                        <span>----------------</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center py-2">
+                <div class="d-inline-flex align-items-center">
+                   
+                    <div class="text-start">
+                        <h6 class="text-uppercase mb-1">Belén Medina</h6>
+                        <span>-------------</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0">
+        <a href="index.html" class="navbar-brand ms-lg-5">
+            <h1 class="m-0 text-uppercase text-dark"></i>LINUX</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="index.html" class="nav-item nav-link active">Historia</a>
+                <a href="porquelinux.html" class="nav-item nav-link">¿Por qué usar Linux?</a>
+                <a href="softwarelibre.html" class="nav-item nav-link">Software Libre</a>
+                <a href="supercompu.html" class="nav-item nav-link">Super Computadoras</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Distribución</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="pcestandar.html" class="dropdown-item">Pc Estándar</a>
+                        <a href="pcbajosrecursos.html" class="dropdown-item">Pc Bajos recursos</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonios</a>
+                        
+                        <a href="nota.html" class="dropdown-item">Nota</a>
+                    </div>
+                </div>
+                <a href="conclusion.html" class="nav-item nav-link nav-contact bg-primary text-white px-5 ms-lg-5">Conclusión<i class="bi bi-arrow-right"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+        <div class="container py-5">
+            <div class="row justify-content-start">
+                <div class="col-lg-8 text-center text-lg-start">
+				<br/>
+                    <h1 class="display-1 text-uppercase text-white mb-lg-4">Sistemas Operativos 2</h1>
+                    <h1 class="text-uppercase text-white mb-lg-4">Segundo Desempeño</h1>
+					<h3 class="text-uppercase text-white mb-lg-4">Prof. Emmanuel Galiotti</h3>
+                    <p class="fs-4 text-white mb-lg-4">Tema: Linux, Distros, usos e historia de este SO.</p>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                        <a href="" class="btn btn-outline-light border-2 py-md-3 px-md-5 me-5">¿QUÉ ES LINUX? --></a>
+                        <button type="button" class="btn-play" data-bs-toggle="modal"
+                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="font-weight-normal text-white m-0 ms-4 d-none d-sm-block">Play Video</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- 16:9 aspect ratio -->
+                    <div class="ratio ratio-16x9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/hZDaS9xyINI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded" src="img/about.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="border-start border-5 border-primary ps-5 mb-5">
+                        <h6 class="text-primary text-uppercase">Sobre Linux</h6>
+                        <h1 class="display-5 text-uppercase mb-0">Dos precedentes necesarios: UNIX y GNU</h1>
+                    </div>
+                    <h4 class="text-body mb-4"><p align="justify">GNU/Linux es un sistema operativo compatible con UNIX, que ofrece una apreciable ventaja con respecto a sus homólogos actuales: su condición de sistema libre, es decir, provisto de un código fuente no sujeto a los derechos convencionales de la propiedad intelectual y, por ello, potencialmente modificable por el usuario, según sean las necesidades o intereses del mismo.</p></h4>
+                    <div class="bg-light p-4">
+                        <ul class="nav nav-pills justify-content-between mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item w-50" role="presentation">
+                                <button class="nav-link text-uppercase w-100 active" id="pills-1-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-1"
+                                    aria-selected="true">UNIX</button>
+                            </li>
+                            <li class="nav-item w-50" role="presentation">
+                                <button class="nav-link text-uppercase w-100" id="pills-2-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-2"
+                                    aria-selected="false">GNU</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
+                                <p class="mb-0"align="justify">UNIX se define como un sistema operativo portable, multiárea y mutiusuario. Lo cual significa que su software se reproduce en distintas plataformas, con reutilización del código fuente; puede realizar varios procesos a la vez, en uno o más procesadores; y ofrece servicio simultáneo a distintos usuarios. Primer sistema operativo con semejantes funcionalidades, la versión original de UNIX fue desarrollada bajo la dirección de dos investigadores del Instituto Tecnológico de Massachusetts (MIT), los estadounidenses Ken Thompson y Dennis Ritchie, entre 1960 y 1970. Con posterioridad, el sistema ha sido sujeto a numerosas reediciones.</p>
+                            </div>
+                            <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
+                                <p class="mb-0"align="justify">Las licencias GNU surgieron como respuesta al creciente usufructo privado de los avances en computación, a fin de recuperar el espíritu cooperativo que caracterizó a las primeras investigaciones y desarrollos de esta ciencia aplicada. En el Manifiesto GNU (1985), el programador estadounidense Richard Stallman solicitó colaboración universal para elaborar un sistema operativo de uso libre para todos los usuarios y técnicamente compatible con UNIX (el cual funciona con licencia privada).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    
+
+    <!-- Services Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
+                <h6 class="text-primary text-uppercase">Más datos</h6>
+                <h1 class="display-5 text-uppercase mb-0">Composición y Evolución.</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-md-6">
+                    <div class="service-item bg-light d-flex p-4">
+                        
+                        <div>
+                            <h5 class="text-uppercase mb-3">Kernel</h5>
+                            <p align="justify">Con el término kernel se designa al software nuclear de un sistema operativo, 
+                                responsable de la conexión segura de los programas con el hardware de la computadora.</p>
+                            <a class="text-primary text-uppercase" href="">Inicio<i class="bi bi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-item bg-light d-flex p-4">
+                       
+                        <div>
+                            <h5 class="text-uppercase mb-3">Kernel Linux</h5>
+                            <p align="justify">La primera versión (0.01) del kernel Linux, totalmente compatible con UNIX, fue presentada públicamente el 17 de septiembre de 1991 a través de la FTP de la Universidad de Helsinki. Aquel núcleo primerizo disponía de 10.000 líneas de códigos. Su denominación era un acrónimo formado por el nombre de su creador, Linus, y UNIX, el modelo a partir del cual se dio la creación.</p>
+                            <a class="text-primary text-uppercase" href="">Inicio<i class="bi bi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-item bg-light d-flex p-4">
+                       
+                        <div>
+                            <h5 class="text-uppercase mb-3">Evolución</h5>
+                            <p align="justify" >Desde 1992, el kernel de Linux fue distribuido junto con los programas desarrollados bajo la licencia pública comercial GNU. De ahí que al conjunto del sistema operativo se le denomine usualmente GNU/Linux.</p>
+                            <p align="justify">La colaboración de miles de programadores de todos los continentes, siempre bajo la dirección de Linus Torvalds a través de la Linux Kernel Mailing List., ha permitido la expansión geométrica del sistema operativo GNU/Linux. Otro tanto puede decirse sobre la calidad del mismo. En la actualidad, el proyecto cuenta incluso con el respaldo económico y técnico de grandes corporaciones de la computación, como IBM, SUN, HP, Novell y RedHat.</p>
+							<a class="text-primary text-uppercase" href="">Inicio<i class="bi bi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-item bg-light d-flex p-4">
+                       
+                        <div>
+                            <h5 class="text-uppercase mb-3">Series del kernel Linux 2.0.x, 2.2.x, 2.4.x y 2.6.x</h5>
+                            <p align="justify" >Aparecieron, respectivamente, en junio de 1996, enero de 1999, enero de 2001 y diciembre de 2003. En julio de 2011, cuando GNU/Linux era el sistema operativo con mayor difusión mundial, Torvald presentó la versión 3.0.x, su peculiar celebración del éxito alcanzado en los primeros veinte años de andadura.</p>
+                            <a class="text-primary text-uppercase" href="">Inicio<i class="bi bi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-item bg-light d-flex p-4">
+                       
+                        <div>
+                            <h5 class="text-uppercase mb-3">Tux</h5>
+                            <p align="justify">Es el nombre del pingüino mascota del kernel de Linux.</p>
+                            <a class="text-primary text-uppercase" href="">Inicio<i class="bi bi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-item bg-light d-flex p-4">
+                
+                        <div>
+                            <h5 class="text-uppercase mb-3">Fundador</h5>
+                            <p align="justify" >Su nombre es Linus Benedict Torvalds</p>
+                            <a class="text-primary text-uppercase" href="">Inicio<i class="bi bi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+    <!-- Products Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
+                <h6 class="text-primary text-uppercase">Historia de su fundador</h6>
+                <h1 class="display-5 text-uppercase mb-0">Linus Benedict Torvalds</h1>
+            </div>
+           
+			
+			
+			
+			
+        </div>
+    </div>
+    <!-- Products End -->
+
+
+    <!-- Offer Start -->
+    <div class="container-fluid bg-offer my-5 py-5">
+        <div class="container py-5">
+            <div class="row gx-5 justify-content-start">
+                <div class="col-lg-7">
+                    <div class="border-start border-5 border-dark ps-5 mb-5">
+                       
+                        <h1 class="display-5 text-uppercase text-white mb-0">Exitoso y Emprendedor</h1>
+                    </div>
+                    <p class="text-white mb-4"align="center" >Linus Benedict Torvalds nació el 28 de diciembre de 1969, su abuelo era un matemático que adquirió un ordenador y le pidió ayuda para usarlo, a la edad de 11 años el pequeño Linus ya sentía atracción por el campo informático y creo su primera linea de código en lenguaje BASIC.
+
+Asistió a la universidad de Helsinki, en donde se educó en ciencias de la computación, aprendió lenguaje de la programación C; a partir de sus estudios decidió tomar algunas ideas y mejorarlas, para emprender su propio proyecto personal. Desarrollando así una versión mejorada de Design of the Unix Operating System, conocido como Linux; de la cual en 1992 obtuvo la Licencia Pública General. En 1997 comenzó a trabajar en Trasmenta, una compañía encargada principalmente en diseñar microprocesadores; en el año 2003 deja dicha compañía para crear en 2005 Git.Actualmente Linus Benedict supervisa la marca que lo llevo al éxito (Linux) por medio de The Linux Foundation; ayudando a mantener su legado en el éxito. Aunque nació en Finlandia en 2010 fue nombrado como ciudadano de los Estados Unidos; se casó con una mujer finlandesa de nombre Tove Monni, la cual es campeona karateca y actualmente madre de 3 hijas que tiene con Linus Torvalds.</p>
+                   
+                    <a href="" class="btn btn-outline-light py-md-3 px-md-5">Inicio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Offer End -->
+
+
+    <!-- Pricing Plan Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
+                <h6 class="text-primary text-uppercase">Algo más</h6>
+                <h1 class="display-5 text-uppercase mb-0">Algunas caraterísticas de Linux</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="bg-light text-center pt-5 mt-lg-5">
+                        <h2 class="text-uppercase">Código Libre</h2>
+                        <h6 class="text-body mb-5"><p align="justify">La totalidad de su código fuente está a la libre disposición de los usuarios, quienes pueden modificarlo con entera libertad siguiendo las condiciones de las licencias GNU.</p></h6>
+                        <div class="text-center bg-primary p-4 mb-2">
+                            <h1 class="display-4 text-white mb-0">
+                                <small class="align-top"
+                                    style="font-size: 22px; line-height: 45px;"></small><small
+                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">
+                                    </small>
+                            </h1>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="bg-light text-center pt-5">
+                        <h2 class="text-uppercase">Multitarea preventiva</h2>
+                        <h6 class="text-body mb-5"><p align="justify">Se sirve de la multitarea preventiva, por la cual son ejecutados todos los programas activos en un momento dado. El sistema operativo se encarga de distribuir tiempo de microprocesador a cada uno de los programas solicitados.</p></h6>
+                        <div class="text-center bg-dark p-4 mb-2">
+                            <h1 class="display-4 text-white mb-0">
+                                <small class="align-top"
+                                    style="font-size: 22px; line-height: 45px;"></small><small
+                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">
+                                    </small>
+                            </h1>
+                        </div>
+                        <div class="text-center p-4">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="bg-light text-center pt-5 mt-lg-5">
+                        <h2 class="text-uppercase">Memoria</h2>
+                        <h6 class="text-body mb-5"><p align="justify">La memoria del sistema operativo está diseñada como un recurso unificado para los programas de usuario y el caché del disco, pudiendo dedicarse a una u otra función según las necesidades.</p></h6>
+                        <div class="text-center bg-primary p-4 mb-2">
+                            <h1 class="display-4 text-white mb-0">
+                                <small class="align-top"
+                                    
+                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">
+                                  </small>
+                            </h1>
+                        </div>
+                        <div class="text-center p-4">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pricing Plan End -->
+
+
+    <!-- Team Start -->
+   
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+   
+    <!-- Testimonial End -->
+
+
+    <!-- Blog Start -->
+   
+    <!-- Blog End -->
+    
+
+    <!-- Footer Start -->
+    
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
